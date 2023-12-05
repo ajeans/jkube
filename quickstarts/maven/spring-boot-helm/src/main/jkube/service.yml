@@ -16,4 +16,9 @@ metadata:
   annotations:
     ${service.annotations}
 spec:
+  ports:
+    - name: http
+      port: ${service.server.port}
+      protocol: TCP
+      targetPort: http-main
   type: ${service.spec.type}

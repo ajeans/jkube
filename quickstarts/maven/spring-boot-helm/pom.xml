@@ -94,6 +94,7 @@
         <deployment.resources.limits_memory/>
         <deployment.resources.requests_memory/>
         <service.spec.type>NodePort</service.spec.type>
+        <service.server.port>8080</service.server.port>
         <service.annotations>api.service.kubernetes.io/path: /dev</service.annotations>
       </properties>
     </profile>
