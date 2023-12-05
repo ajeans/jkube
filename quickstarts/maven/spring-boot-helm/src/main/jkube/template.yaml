@@ -19,6 +19,8 @@ parameters:
     value: "512Mi"
   - name: deployment.resources.requests_memory
     value: "256Mi"
+  - name: service.server.port
+    value: "9090"
   - name: i_should_be_quoted
     value: I need quotes
   - name: golang_expression
